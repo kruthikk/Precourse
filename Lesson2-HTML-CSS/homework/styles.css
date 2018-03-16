@@ -1,0 +1,29 @@
+
+            h1
+            { 
+                color:darkgreen;
+            }
+            img
+            {
+                width:400px;
+                height:400px;
+            }
+            #thirdDiv{
+                height:400px;
+                width:400px;
+                background: grey;
+                padding: 50px;
+                align-content:center;
+
+            }
+            #spanId{
+                font-size:28px;
+                margin:50px;
+            }
+            .flex-container > div{
+                display: flex;
+                align-items: center;
+                align-content: center;
+            }
+            
+            

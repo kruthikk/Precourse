@@ -8,31 +8,33 @@ in this folder, you are in the wrong place.
 
 /* We will start this one off for you: */
 #exerciseOne {
-
+  display:block;
+  text-align: center;
 }
 
+#exerciseTwo{
+  visibility: hidden;
+  display: none;
+}
 
-/* Exercise Two: Positioning a Header Bar*/
+#exerciseThree{
+  position: relative;
+  top: 100px;
+  left:200px;
+}
 
-/* Place code here */
+#exerciseFour{
+  position:fixed;
+  top:0;
+  left:0;
+}
 
-
-
-/* Exercise Three: */
-
-/* Place code here */
-
-
-
-/* Exercise Four: */
-
-/* Place code here */
-
-
-
-/* Exercise Five */
-
-/* Place code here */
+#exerciseFive{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+}
 
 
 
@@ -40,4 +42,10 @@ in this folder, you are in the wrong place.
 
 #exerciseSeven {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#itemThree{
+  display: flex;
+  align-self: flex-end;
 }
